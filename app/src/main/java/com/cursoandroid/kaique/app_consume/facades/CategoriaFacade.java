@@ -6,7 +6,8 @@ import com.cursoandroid.kaique.app_consume.model.Categoria;
 import java.util.List;
 
 public class CategoriaFacade {
-	
+
+	//Busca todas as categorias
 	public List<Categoria> findAll() throws Exception{
 		
 		List<Categoria> categorias = CategoriaBusiness.getInstance().findAll();
